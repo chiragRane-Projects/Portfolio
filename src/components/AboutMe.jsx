@@ -49,10 +49,10 @@ const AboutMe = () => {
   ];
 
   const journey = [
-    { year: '2021', title: 'Started Coding Journey', desc: 'Began with HTML, CSS, and JavaScript' },
-    { year: '2022', title: 'Full Stack Development', desc: 'Mastered React, Node.js, and databases' },
-    { year: '2023', title: 'Data Science Explorer', desc: 'Dived into Python, ML, and data visualization' },
-    { year: '2024', title: 'Professional Growth', desc: 'Building scalable applications and leading projects' }
+    { year: '2023', title: 'Started Coding Journey', desc: 'Began with HTML, CSS, and JavaScript' },
+    { year: '2024', title: 'Full Stack Development', desc: 'Mastered React, Node.js, and databases' },
+    { year: '2024', title: 'Professional Growth', desc: 'Building scalable applications and leading projects' },
+    { year: '2025', title: 'Data Science Explorer', desc: 'Dived into Python, ML, and data visualization' },
   ];
 
   const interests = [
@@ -210,7 +210,7 @@ const AboutMe = () => {
                     <div key={item.year} className="flex gap-4 sm:gap-6">
                       <div className="flex flex-col items-center">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-sm sm:text-base">
-                          {item.year.slice(-2)}
+                          {item.year}
                         </div>
                         {index < journey.length - 1 && (
                           <div className="w-0.5 h-12 sm:h-16 bg-gradient-to-b from-blue-300 to-purple-300 mt-2" />
