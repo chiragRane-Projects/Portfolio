@@ -157,15 +157,15 @@ const Hero = () => {
             className="group relative inline-flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full font-semibold hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300 transform hover:scale-105 w-full sm:w-auto text-xs sm:text-sm md:text-base"
           >
             <Mail className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5" />
-            Get in Touch
+            <a href="mailto:beingchirag6@gmail.com">
+            Get in Touch</a>
+            
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-full blur opacity-0 group-hover:opacity-50 transition-opacity duration-300 -z-10" />
+            
           </button>
           
-          <button className="group inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full font-semibold border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105 w-full sm:w-auto text-xs sm:text-sm md:text-base">
-            <Download className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5" />
-            Download CV
-            <ExternalLink className="w-2 h-2 sm:w-3 sm:h-3 md:w-4 md:h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-          </button>
+          
+          
         </div>
 
         {/* Social Links */}
