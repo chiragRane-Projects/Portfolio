@@ -7,13 +7,13 @@ import { ExternalLink, Github, Star, Calendar, Smartphone,  Stethoscope, Book, C
 const projects = [
   {
     title: 'Xpensify',
-    description: 'An expense tracker web app to manage personal finances efficiently with real-time analytics and budget insights.',
+    description: 'An expense tracker web app to manage personal finances efficiently with real-time analytics and budget insights. Currently under polishing.',
     link: '#',
     github: 'https://github.com/chiragRane-Projects/xpensify_backend.git',
     tech: ['Django', 'Vite', 'Tailwind CSS', 'NeonDB', 'Django-Auth', 'Shadcn/UI'],
     category: 'Web App',
     year: '2025',
-    status: 'Development',
+    status: 'Revamp',
     icon: DollarSign,
     gradient: 'from-blue-200 to-cyan-500'
   },
@@ -185,6 +185,7 @@ const Projects = () => {
                       <div className={`px-3 py-1 rounded-full text-xs font-medium ${
                         project.status === 'Live' ? 'bg-green-100 text-green-700' :
                         project.status === 'Beta' ? 'bg-blue-100 text-blue-700' :
+                        project.status === 'Revamp' ? 'bg-emerald-400 text-white' :
                         'bg-orange-100 text-orange-700'
                       }`}>
                         {project.status}

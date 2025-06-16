@@ -36,11 +36,12 @@ const AboutMe = () => {
   }, []);
 
   const stats = [
-    { number: '0-1', label: 'Years Experience', icon: <Calendar className="w-5 h-5" /> },
-    { number: '12', label: 'Projects Completed', icon: <Award className="w-5 h-5" /> },
-    { number: '25+', label: 'Technologies', icon: <Code2 className="w-5 h-5" /> },
-    { number: '∞', label: 'Cups of Coffee', icon: <Coffee className="w-5 h-5" /> }
+    { number: '12', label: 'Real-world Projects', icon: <Award className="w-5 h-5" /> },
+    { number: '25+', label: 'Tech Stack Mastery', icon: <Code2 className="w-5 h-5" /> },
+    { number: '4–5 hrs/day', label: 'Hands-on Practice', icon: <Calendar className="w-5 h-5" /> },
+    { number: '∞', label: 'Debugging Zen Achieved', icon: <Coffee className="w-5 h-5" /> }
   ];
+  
 
   const skills = [
     { name: 'Frontend Development', level: 60, color: 'from-blue-500 to-cyan-500' },
