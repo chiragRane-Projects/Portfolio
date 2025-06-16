@@ -8,15 +8,14 @@ const projects = [
   {
     title: 'Xpensify',
     description: 'An expense tracker web app to manage personal finances efficiently with real-time analytics and budget insights.',
-    link: 'https://xpensify-six.vercel.app/',
-    github: 'https://github.com/chiragRane-Projects/Xpensify.git',
-    tech: ['NextJs', 'Tailwind CSS', 'MongoDB', 'Next-Auth', 'Shadcn/UI'],
+    link: '#',
+    github: 'https://github.com/chiragRane-Projects/xpensify-backend.git',
+    tech: ['Django', 'Vite', 'Tailwind CSS', 'NeonDB', 'Django-Auth', 'Shadcn/UI'],
     category: 'Web App',
     year: '2025',
-    status: 'Live',
+    status: 'Development',
     icon: DollarSign,
-    gradient: 'from-blue-200 to-cyan-500',
-    featured: true
+    gradient: 'from-blue-200 to-cyan-500'
   },
   {
     title: 'CoffeeCafe',
@@ -28,8 +27,7 @@ const projects = [
     year: '2025',
     status: 'Live',
     icon: CoffeeIcon,
-    gradient: 'from-amber-500 to-orange-600',
-    featured: false,
+    gradient: 'from-amber-500 to-orange-600'
   },
   {
     title: 'Educare',
@@ -41,8 +39,7 @@ const projects = [
     year: '2025',
     status: 'Live',
     icon: Book,
-    gradient: 'from-blue-500 to-indigo-600',
-    featured: true,
+    gradient: 'from-blue-500 to-indigo-600'
   },
   {
     title: 'FitVerse',
@@ -54,8 +51,7 @@ const projects = [
     year: '2026',
     status: 'Development',
     icon: Smartphone,
-    gradient: 'from-red-500 to-rose-600',
-    featured: true
+    gradient: 'from-red-500 to-rose-600'
   },
   {
     title: 'BookMyDoctor',
@@ -67,8 +63,7 @@ const projects = [
     year: '2025',
     status: 'Development',
     icon: Stethoscope,
-    gradient: 'from-sky-400 to-purple-300',
-    featured: false
+    gradient: 'from-sky-400 to-purple-300'
   }
 ];
 
@@ -168,15 +163,6 @@ const Projects = () => {
                 <Card className={`h-full overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 border-0 bg-white/80 backdrop-blur-sm ${
                   project.featured ? 'ring-2 ring-blue-200' : ''
                 }`}>
-                  {/* Featured Badge */}
-                  {project.featured && (
-                    <div className="absolute top-4 right-4 z-10">
-                      <div className="bg-gradient-to-r from-yellow-400 to-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1">
-                        <Star className="w-3 h-3 fill-current" />
-                        Featured
-                      </div>
-                    </div>
-                  )}
 
                   {/* Gradient Header */}
                   <div className={`h-2 bg-gradient-to-r ${project.gradient}`}></div>
