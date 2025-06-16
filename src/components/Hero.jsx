@@ -79,7 +79,7 @@ const Hero = () => {
                 left: `${Math.random() * 100}%`,
                 top: `${Math.random() * 100}%`,
                 animation: `float ${3 + Math.random() * 4}s ease-in-out infinite`,
-                animationDelay: `${Math.random() * 2}s`
+                animationDelay: `${Math.random() * 1}s`
               }}
             />
           ))}
