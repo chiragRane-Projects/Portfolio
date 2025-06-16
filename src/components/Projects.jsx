@@ -9,7 +9,7 @@ const projects = [
     title: 'Xpensify',
     description: 'An expense tracker web app to manage personal finances efficiently with real-time analytics and budget insights.',
     link: '#',
-    github: 'https://github.com/chiragRane-Projects/xpensify-backend.git',
+    github: 'https://github.com/chiragRane-Projects/xpensify_backend.git',
     tech: ['Django', 'Vite', 'Tailwind CSS', 'NeonDB', 'Django-Auth', 'Shadcn/UI'],
     category: 'Web App',
     year: '2025',
