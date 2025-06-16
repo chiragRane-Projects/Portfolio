@@ -10,8 +10,8 @@ function App() {
     <>
       <Hero/>
       <AboutMe/>
-      <SkillsTechnologies/>
       <Projects/>
+      <SkillsTechnologies/>
       <ContactMe/>
       <Footer/>
     </>
