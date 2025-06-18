@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Star, Calendar, Smartphone,  Stethoscope, Book, CoffeeIcon, DollarSign, BarChart} from 'lucide-react';
+import { ExternalLink, Github, Star, Calendar, Smartphone,  Stethoscope, Book, CoffeeIcon, DollarSign, BarChart, Banana} from 'lucide-react';
+import { cilDinner } from '@coreui/icons';
 
 const projects = [
   {
@@ -77,6 +78,18 @@ const projects = [
     status: 'Development',
     icon: Stethoscope,
     gradient: 'from-sky-400 to-purple-300'
+  },
+  {
+    title:'FoodTrient',
+    description: 'FoodTrient is built for analyzing nutrients and disease risk of whatever food user intakes',
+    link: 'https://foodtrient.vercel.app/',
+    github: 'https://github.com/chiragRane-Projects/FoodTrient.git',
+    tech: ['NextJS', 'Tailwind CSS', 'Framer-Motion', 'ViteTest', 'GeminiAI API'],
+    category: 'Web App',
+    year: '2025',
+    status: 'Development',
+    icon: Banana,
+    gradient: 'from-rose-400 to-red-300'
   }
 ];
 
