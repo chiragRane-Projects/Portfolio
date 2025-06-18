@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Star, Calendar, Smartphone,  Stethoscope, Book, CoffeeIcon, DollarSign} from 'lucide-react';
+import { ExternalLink, Github, Star, Calendar, Smartphone,  Stethoscope, Book, CoffeeIcon, DollarSign, BarChart} from 'lucide-react';
 
 const projects = [
   {
-    title: 'Xpensify',
-    description: 'An expense tracker web app to manage personal finances efficiently with real-time analytics and budget insights. Currently under polishing.',
+    title: 'FinBuddy',
+    description: 'An expense tracker web app to manage personal finances efficiently with real-time analytics and budget insights. Currently under polishing. Earlier it was named Xpensify but now with changes its Finbuddy',
     link: '#',
     github: 'https://github.com/chiragRane-Projects/xpensify_backend.git',
     tech: ['Django', 'Vite', 'Tailwind CSS', 'NeonDB', 'Django-Auth', 'Shadcn/UI'],
@@ -52,6 +52,19 @@ const projects = [
     status: 'Development',
     icon: Smartphone,
     gradient: 'from-red-500 to-rose-600'
+  },
+  {
+
+    title: 'StockSage',
+    description: 'StockSage is a webapp where traders can see the current trend of any stock or crypto.',
+    link: '#',
+    github: '#',
+    tech: ['Vite', 'FastApi', 'Javascript', 'Tailwind CSS', 'Alpha Vantage API'],
+    category: 'Web App',
+    year: '2025',
+    status: 'Development',
+    icon: BarChart,
+    gradient: 'from-cyan-500 to-sky-600'
   },
   {
     title: 'BookMyDoctor',
