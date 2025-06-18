@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Star, Calendar, Smartphone,  Stethoscope, Book, CoffeeIcon, DollarSign, BarChart, Banana} from 'lucide-react';
-import { cilDinner } from '@coreui/icons';
+import { ExternalLink, Github, Star, Calendar, Smartphone,  Stethoscope, Book, CoffeeIcon, DollarSign, BarChart, Rice} from 'lucide-react';
 
 const projects = [
   {
@@ -87,7 +86,7 @@ const projects = [
     tech: ['NextJS', 'Tailwind CSS', 'Framer-Motion', 'ViteTest', 'GeminiAI API'],
     category: 'Web App',
     year: '2025',
-    status: 'Development',
+    status: 'Live',
     icon: Banana,
     gradient: 'from-rose-400 to-red-300'
   }
