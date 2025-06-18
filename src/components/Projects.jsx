@@ -18,7 +18,7 @@ const projects = [
     gradient: 'from-blue-200 to-cyan-500'
   },
   {
-    title: 'CoffeeCafe',
+    title: 'CoffeeNation',
     description: 'A landing page for a cozy coffee bar with modern design, interactive menu, and online ordering system.',
     link: 'https://coffeenation.netlify.app/',
     github: 'https://github.com/chiragRane-Projects/CoffeeNation.git',
@@ -80,7 +80,7 @@ const projects = [
   },
   {
     title:'FoodTrient',
-    description: 'FoodTrient is built for analyzing nutrients and disease risk of whatever food user intakes',
+    description: 'FoodTrient is an AI-powered web application that helps users understand the nutritional value, health impact, and smarter alternatives of the food they consume — simply by uploading a photo.',
     link: 'https://foodtrient.vercel.app/',
     github: 'https://github.com/chiragRane-Projects/FoodTrient.git',
     tech: ['NextJS', 'Tailwind CSS', 'Framer-Motion', 'ViteTest', 'GeminiAI API'],
