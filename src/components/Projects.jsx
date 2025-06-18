@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Star, Calendar, Smartphone,  Stethoscope, Book, CoffeeIcon, DollarSign, BarChart, Rice} from 'lucide-react';
+import { ExternalLink, Github, Star, Calendar, Smartphone,  Stethoscope, Book, CoffeeIcon, DollarSign, BarChart, Utensils} from 'lucide-react';
 
 const projects = [
   {
@@ -87,7 +87,7 @@ const projects = [
     category: 'Web App',
     year: '2025',
     status: 'Live',
-    icon: Banana,
+    icon: Utensils,
     gradient: 'from-rose-400 to-red-300'
   }
 ];
