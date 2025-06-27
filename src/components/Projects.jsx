@@ -7,10 +7,10 @@ import { ExternalLink, Github, Star, Calendar, Smartphone, Stethoscope, Book, Co
 const projects = [
   {
     title: 'FinBuddy',
-    description: 'An expense tracker web app to manage personal finances efficiently with real-time analytics and budget insights. Currently under polishing. Earlier it was named Xpensify but now with changes its Finbuddy',
-    link: '#',
+    description: 'Finbuddy is an expense tracker which helps users keep a control on their expenses within a specified budget.',
+    link: 'https://finbuddy-omega.vercel.app/',
     github: 'https://github.com/chiragRane-Projects/xpensify_backend.git',
-    tech: ['Django', 'Vite', 'Tailwind CSS', 'NeonDB', 'Django-Auth', 'Shadcn/UI'],
+    tech: ['Next JS', 'Tailwind CSS', 'NeonDB', 'Next-Auth', 'Shadcn/UI'],
     category: 'Web App',
     year: '2025',
     status: 'Revamp',
