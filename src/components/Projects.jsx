@@ -13,7 +13,7 @@ const projects = [
     tech: ['Next JS', 'Tailwind CSS', 'NeonDB', 'Next-Auth', 'Shadcn/UI'],
     category: 'Web App',
     year: '2025',
-    status: 'Revamp',
+    status: 'Development',
     icon: DollarSign,
     gradient: 'from-emerald-400 via-cyan-500 to-blue-600',
   },
