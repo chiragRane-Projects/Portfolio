@@ -8,8 +8,8 @@ const projects = [
   {
     title: 'FinBuddy',
     description: 'Finbuddy is an expense tracker which helps users keep a control on their expenses within a specified budget.',
-    link: 'https://finbuddy-omega.vercel.app/',
-    github: 'https://github.com/chiragRane-Projects/xpensify_backend.git',
+    link: '#',
+    github: '#',
     tech: ['Next JS', 'Tailwind CSS', 'NeonDB', 'Next-Auth', 'Shadcn/UI'],
     category: 'Web App',
     year: '2025',
