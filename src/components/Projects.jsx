@@ -32,7 +32,7 @@ const projects = [
   {
     title: 'Traventure',
     description: 'Traventure is a landing page for a travel agency offering holiday packages and tours.',
-    link: 'https://traventure-mocha.vercel.app/',
+    link: 'https://traventure-tours.vercel.app/',
     github: 'https://github.com/chiragRane-Projects/Traventure.git  ',
     tech: ['NextJS', 'JavaScript', 'Tailwind CSS', 'Shadcn/UI', 'Framer-Motion'],
     category: 'Landing Page',
