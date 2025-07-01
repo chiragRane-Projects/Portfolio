@@ -2,21 +2,9 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Star, Calendar, Smartphone, Stethoscope, Book, Coffee, DollarSign, BarChart, Utensils, ArrowRight, Code2, Sparkles } from 'lucide-react';
+import { ExternalLink, Github, Star, Calendar, Smartphone, Stethoscope, Book, Coffee, DollarSign,  Utensils, ArrowRight, Code2, Sparkles, Plane } from 'lucide-react';
 
 const projects = [
-  {
-    title: 'FinBuddy',
-    description: 'Finbuddy is an expense tracker which helps users keep a control on their expenses within a specified budget.',
-    link: '#',
-    github: '#',
-    tech: ['Next JS', 'Tailwind CSS', 'NeonDB', 'Next-Auth', 'Shadcn/UI'],
-    category: 'Web App',
-    year: '2025',
-    status: 'Development',
-    icon: DollarSign,
-    gradient: 'from-emerald-400 via-cyan-500 to-blue-600',
-  },
   {
     title: 'CoffeeNation',
     description: 'A landing page for a cozy coffee bar with modern design, interactive menu, and online ordering system.',
@@ -42,40 +30,16 @@ const projects = [
     gradient: 'from-blue-500 via-purple-500 to-indigo-600'
   },
   {
-    title: 'FitVerse',
-    description: 'A landing page for fitness and nutrition tracker app with personalized workout plans, meal tracking, and community challenges. Mobile App to launch in second half of 2025 or January 2026',
-    link: 'https://fitverse-phi.vercel.app/',
-    github: 'https://github.com/chiragRane-Projects/FitVerse.git',
-    tech: ['React Native', 'Node JS', 'Vite', 'Tailwind CSS', 'MongoDB'],
-    category: 'Mobile App',
-    year: '2026',
-    status: 'Development',
-    icon: Smartphone,
-    gradient: 'from-pink-500 via-red-500 to-orange-600'
-  },
-  {
-    title: 'StockSage',
-    description: 'StockSage is a webapp where traders can see the current trend of any stock or crypto.',
-    link: '#',
-    github: '#',
-    tech: ['Vite', 'FastApi', 'Javascript', 'Tailwind CSS', 'Alpha Vantage API'],
-    category: 'Web App',
+    title: 'Traventure',
+    description: 'Traventure is a landing page for a travel agency offering holiday packages and tours.',
+    link: 'https://traventure-mocha.vercel.app/',
+    github: 'https://github.com/chiragRane-Projects/Traventure.git  ',
+    tech: ['NextJS', 'JavaScript', 'Tailwind CSS', 'Shadcn/UI', 'Framer-Motion'],
+    category: 'Landing Page',
     year: '2025',
-    status: 'Development',
-    icon: BarChart,
+    status: 'Completed',
+    icon: Plane,
     gradient: 'from-cyan-400 via-sky-500 to-blue-600'
-  },
-  {
-    title: 'BookMyDoctor',
-    description: 'BookMyDoctor is a webapp built for users to book doctor appointments. This also has an admin panel which manages doctors and their appointments.',
-    link: '#',
-    github: '#',
-    tech: ['NextJS', 'Tailwind CSS', 'Shadcn/UI', 'NeonDB', 'Drizzle'],
-    category: 'Web App',
-    year: '2025',
-    status: 'Development',
-    icon: Stethoscope,
-    gradient: 'from-teal-400 via-cyan-500 to-blue-500'
   },
   {
     title: 'FoodTrient',

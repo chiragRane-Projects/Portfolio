@@ -36,7 +36,7 @@ const AboutMe = () => {
   }, []);
 
   const stats = [
-    { number: '12', label: 'Real-world Projects', icon: <Award className="w-5 h-5" /> },
+    { number: '4', label: 'Real-world Projects', icon: <Award className="w-5 h-5" /> },
     { number: '25+', label: 'Tech Stack Mastery', icon: <Code2 className="w-5 h-5" /> },
     { number: '4–5 hrs/day', label: 'Hands-on Practice', icon: <Calendar className="w-5 h-5" /> },
     { number: '∞', label: 'Debugging Zen Achieved', icon: <Coffee className="w-5 h-5" /> }
