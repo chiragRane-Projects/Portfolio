@@ -37,7 +37,7 @@ const projects = [
     tech: ['NextJS', 'JavaScript', 'Tailwind CSS', 'Shadcn/UI', 'Framer-Motion'],
     category: 'Landing Page',
     year: '2025',
-    status: 'Completed',
+    status: 'Live',
     icon: Plane,
     gradient: 'from-cyan-400 via-sky-500 to-blue-600'
   },
