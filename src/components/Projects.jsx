@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github, Star, Calendar, Smartphone, Stethoscope, Book, Coffee, DollarSign,  Utensils, ArrowRight, Code2, Sparkles, Plane } from 'lucide-react';
+import { TbCricket } from 'react-icons/tb';
 
 const projects = [
   {
@@ -52,6 +53,18 @@ const projects = [
     status: 'Live',
     icon: Utensils,
     gradient: 'from-rose-400 via-pink-500 to-red-500'
+  },
+  {
+    title: 'Criclytics',
+    description: 'Criclytics is an analysis platforms which analyzes star batsmens performance with the bat in IPL 2025.',
+    link: 'https://criclytics.netlify.app/',
+    github: 'https://github.com/chiragRane-Projects/Cryclitics.git',
+    tech: ['Python', 'Flask', 'Pandas', 'Matplotlib', 'Vite', 'React', 'Javascript', 'Shadcn/UI', 'Axios'],
+    category: 'Web App',
+    year: '2025',
+    status: 'Live',
+    icon: TbCricket,
+    gradient: 'from-green-400 via-teal-500 to-emerald-500'
   }
 ];
 
@@ -123,7 +136,7 @@ const Projects = () => {
           ease: "easeInOut",
           delay: 1.5
         }}
-        className="absolute bottom-20 right-10 w-36 h-36 bg-gradient-to-br from-pink-400/30 to-red-600/30 rounded-full blur-2xl"
+        className="absolute bottom-20 riSmartphone, Stethoscope,ght-10 w-36 h-36 bg-gradient-to-br from-pink-400/30 to-red-600/30 rounded-full blur-2xl"
       />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
